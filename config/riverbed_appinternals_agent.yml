@@ -16,5 +16,5 @@
 # Configuration for the riverbed appinternals agent framework
 ---
 version: 10.+
-repository_root: http://10.46.35.32/
+repository_root: http://04d.public.zeus.run/appinternals/
 rvbd_moniker: $(jq -r -n "$VCAP_APPLICATION | .application_name")
